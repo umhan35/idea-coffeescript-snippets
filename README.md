@@ -1,28 +1,42 @@
+# WebStorm snippets (live templates) for CoffeeScript
 
-copy coffee.xml to your idea templates directory
+Forked from [https://github.com/swizard/idea-coffee-live-templates](swizard/idea-coffee-live-templates)
 
-~$ cp coffee.xml ~/Library/Preferences/WebIde40/templates/
+## Installation
 
-##General
- 
-    req    require
-    cl     class
-    fun    (...) ->
-    for    for array
-    foro   for object
-    log    console.log
-    swi    switch
+Copy this file to the templates folder in your WebStorm settings
 
-##for testing 
+### Mac OS X and Webstorm 9
 
-    desc   describe
-    it     it "should ..."
-    ae     assert.equal
-    aem    assert.equal with message
+``` bash
+cp coffee.xml ~/Library/Preferences/WebStorm9/templates/
+```
+
+## Snippets
+
+## General
+
+Shortcut | Snippet
+ : --- : |   ---
+ `req`   | require
+ `cl`    | class
+ `fun`   | (...) ->
+ `for`   | for array
+ `foro`  | for object
+ `log`   | console.log
+ `swi`   | switch
+ `:`     | object-parameter
+
+## Testing
+
+ `desc`  | describe
+ `it`    | it "should ..."
+ `ae`    | assert.equal
+ `aem`   | assert.equal with message
 
 
-##for jquery
+## jQuery
 
-    dele  delegate jquery event binding
+ `dele`  | delegate jquery event binding
 
  
