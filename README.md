@@ -6,7 +6,7 @@ Forked from [https://github.com/swizard/idea-coffee-live-templates](swizard/idea
 
 Copy this file to the templates folder in your WebStorm settings
 
-### Mac OS X and Webstorm 9
+### Mac OS X and WebStorm 9
 
 ``` bash
 cp coffee.xml ~/Library/Preferences/WebStorm9/templates/
