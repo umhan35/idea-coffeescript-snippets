@@ -14,29 +14,32 @@ cp coffee.xml ~/Library/Preferences/WebStorm9/templates/
 
 ## Snippets
 
-## General
+### General
 
-Shortcut | Snippet
- : --- : |   ---
- `req`   | require
- `cl`    | class
- `fun`   | (...) ->
- `for`   | for array
- `foro`  | for object
- `log`   | console.log
- `swi`   | switch
- `:`     | object-parameter
+| Shortcut | Snippet |
+|:--------:|---------|
+| `req`    | require |
+| `cl`     | class |
+| `fun`    | (...) -> |
+| `for`    | for array |
+| `foro`   | for object |
+| `log`    | console.log |
+| `swi`    | switch |
+| `:`      | object-parameter |
 
-## Testing
+### Testing
 
- `desc`  | describe
- `it`    | it "should ..."
- `ae`    | assert.equal
- `aem`   | assert.equal with message
+| Shortcut | Snippet |
+|:--------:|---------|
+| `desc`   | describe |
+| `it`     | it "should ..." |
+| `ae`     | assert.equal |
+| `aem`    | assert.equal with message |
 
+### jQuery
 
-## jQuery
-
- `dele`  | delegate jquery event binding
+| Shortcut | Snippet |
+|:--------:|---------|
+| `dele`   | delegate jquery event binding |
 
  
