@@ -18,28 +18,28 @@ cp coffee.xml ~/Library/Preferences/WebStorm9/templates/
 
 | Shortcut | Snippet |
 |:--------:|---------|
-| `req`    | require |
-| `cl`     | class |
-| `fun`    | (...) -> |
-| `for`    | for array |
-| `foro`   | for object |
-| `log`    | console.log |
-| `swi`    | switch |
-| `:`      | object-parameter |
+| `req`    | **require**: `<foo> = require <<foo>>` |
+| `cl`     | **Class definition:** `class <ClassName> \n constructor: (<params>) ->` |
+| `fun`    | **Function:** `(<params>) ->` |
+| `for`    | **Array-Loop:** `for <item> in <array>` |
+| `foro`   | **Object-Loop:** `for <key>, <value> of <obj>` |
+| `log`    | **console.log:** `console.log "<obj> is #{<obj>}"` |
+| `swi`    | **Switch:** `switch <something> \n then` |
+| `:`      | **Object-Parameter:** `<parameter>: <value>` |
 
 ### Testing
 
 | Shortcut | Snippet |
 |:--------:|---------|
-| `desc`   | describe |
-| `it`     | it "should ..." |
-| `ae`     | assert.equal |
-| `aem`    | assert.equal with message |
+| `desc`   | `describe` |
+| `it`     | `it "should ..."` |
+| `ae`     | `assert.equal` |
+| `aem`    | `assert.equal with message` |
 
 ### jQuery
 
 | Shortcut | Snippet |
 |:--------:|---------|
-| `dele`   | delegate jquery event binding |
+| `dele`   | `delegate jquery event binding` |
 
  
