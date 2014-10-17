@@ -1,6 +1,6 @@
 # WebStorm snippets (live templates) for CoffeeScript
 
-Forked from [https://github.com/swizard/idea-coffee-live-templates](swizard/idea-coffee-live-templates)
+Forked from [swizard/idea-coffee-live-templates](https://github.com/swizard/idea-coffee-live-templates)
 
 ## Installation
 
